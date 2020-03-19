@@ -1,9 +1,7 @@
-class Dog(name)
-  this_dogs_name = name 
-end 
+fido = Dog.new
+fido.name = "Fido"
+fido.bark = "Bark"
 
-def name 
-  this_dogs_name = name 
-end
+fido.name 
 
-def bark 
+fido.bark
